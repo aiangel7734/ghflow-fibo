@@ -1,5 +1,12 @@
 from math import sqrt
 
+#Recursion
+def fibo(n):
+    if n < 2:
+        return n
+    else:
+        return fibo(n-1) + fibo(n-2)
+      
 # binet
 def binet(n):
     phi1 = (1+sqrt(5)) / 2
